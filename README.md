@@ -6,24 +6,34 @@ This template is designed to help you develop an application based on the Clean 
 **Features:**
 
 Layered Architecture:
+
 Presentation Layer (UI)
 Business Layer (Application Logic)
 Data Access Layer (Database and API interaction)
+
 Dependency Injection:
+
 Easy testing and maintenance
 Adaptability for different platforms
+
 Testing Support:
+
 Unit and integration tests examples
+
 Examples:
+
 User authentication
 Local data storage
 Data exchange with API
-Getting Started:
+
+**Getting Started:**
+
 
 Clone a copy of this repository.
 Install the required Flutter SDK and other dependencies.
 Review the lib/main.dart file and customize your application settings.
 Use the flutter run command to run your application.
+
 **More Information:**
 
 Flutter : https://docs.flutter.dev/
