@@ -3,7 +3,7 @@
 
 This template is designed to help you develop an application based on the Clean Architecture principles using Flutter. The template provides a solid foundation that separates the business logic of your application from the presentation layer and the data access layer.
 
-**Features:**
+## **Features:**
 
 Layered Architecture:
 
