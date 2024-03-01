@@ -5,7 +5,7 @@ This template is designed to help you develop an application based on the Clean 
 
 ## **Features:**
 
-Layered Architecture:
+# Layered Architecture:
 
 Presentation Layer (UI)
 Business Layer (Application Logic)
