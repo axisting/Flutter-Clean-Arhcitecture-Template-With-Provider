@@ -4,17 +4,23 @@ abstract class Failure {
 }
 
 class ServerFailure extends Failure {
-  ServerFailure({String errorMessage = 'There is a server exception'})
+  ServerFailure({String errorMessage = 'Server error occurred'})
       : super(errorMessage: errorMessage);
 }
 
 class CacheFailure extends Failure {
-  CacheFailure({String errorMessage = 'There is a cache exception'})
+  CacheFailure({String errorMessage = 'Cache error occurred'})
       : super(errorMessage: errorMessage);
 }
 
 class NullPointerFailure extends Failure {
   NullPointerFailure(
-      {String errorMessage = 'There is a null pointer exception'})
+      {String errorMessage = 'Null Pointer error occurred'})
+      : super(errorMessage: errorMessage);
+}
+
+class StateManagementFailure extends Failure {
+  StateManagementFailure(
+      {String errorMessage = 'State management error occurred'})
       : super(errorMessage: errorMessage);
 }
