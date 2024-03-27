@@ -1,4 +1,5 @@
 import 'package:internet_connection_checker/internet_connection_checker.dart';
+// ? internet_connection_checker_plus kütüphanesini de kullanabilirsin. Ekstra web desteği de var
 
 // * Burada internet bağlantısının olup olmadığını kontrol eden bir method var var.
 // * Yine İnternet hakkındaki diğer methodları da burada yazabiliriz.

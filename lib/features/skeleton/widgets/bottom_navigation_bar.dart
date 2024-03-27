@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:provider_template/core/extensions/l10n_extension.dart';
-import 'package:provider_template/features/skeleton/provider/selected_page_provider.dart';
+import '/core/extensions/l10n_extension.dart';
+import '/features/skeleton/provider/selected_page_provider.dart';
 
 class CustomBottomNavigationBar extends StatelessWidget {
   const CustomBottomNavigationBar({super.key});

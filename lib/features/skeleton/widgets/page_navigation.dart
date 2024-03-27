@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:provider_template/core/extensions/l10n_extension.dart';
-import 'package:provider_template/features/skeleton/provider/selected_page_provider.dart';
+import '/core/extensions/l10n_extension.dart';
+import '/features/skeleton/provider/selected_page_provider.dart';
 
 class NavigationWidget extends StatelessWidget {
   const NavigationWidget({super.key});
@@ -11,8 +11,7 @@ class NavigationWidget extends StatelessWidget {
     int selectedPageIndex =
         Provider.of<SelectedPageProvider>(context).selectedPage;
     /*  
-    String selectedPageName = Provider.of<SelectedPageProvider>(context)
-        .selectedPageName(context: context);
+    String selectedPageName = Provider.of<SelectedPageProvidePageName(context: context);
 
     return Center(child: Text(selectedPageName));
     */

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:provider_template/core/extensions/l10n_extension.dart';
 
 class SelectedPageProvider extends ChangeNotifier {
   int selectedPage;

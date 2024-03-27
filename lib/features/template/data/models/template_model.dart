@@ -1,5 +1,5 @@
-import 'package:provider_template/core/constants/constants.dart';
-import 'package:provider_template/features/template/business/entities/template_entity.dart';
+import '/core/constants/constants.dart';
+import '/features/template/business/entities/template_entity.dart';
 
 class TemplateModel extends TemplateEntity {
   const TemplateModel({required String template}) : super(template: template);

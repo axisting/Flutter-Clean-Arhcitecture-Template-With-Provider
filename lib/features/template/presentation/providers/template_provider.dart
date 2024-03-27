@@ -1,14 +1,14 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
-import 'package:provider_template/core/connection/network_info.dart';
-import 'package:provider_template/core/errors/failure.dart';
-import 'package:provider_template/core/params/params.dart';
-import 'package:provider_template/features/template/business/entities/template_entity.dart';
-import 'package:provider_template/features/template/business/usecases/get_template.dart';
-import 'package:provider_template/features/template/data/datasources/template_local_data_source.dart';
-import 'package:provider_template/features/template/data/datasources/template_remote_data_source.dart';
-import 'package:provider_template/features/template/data/repositories/template_repository_impl.dart';
+import '/core/connection/network_info.dart';
+import '/core/errors/failure.dart';
+import '/core/params/params.dart';
+import '/features/template/business/entities/template_entity.dart';
+import '/features/template/business/usecases/get_template.dart';
+import '/features/template/data/datasources/template_local_data_source.dart';
+import '/features/template/data/datasources/template_remote_data_source.dart';
+import '/features/template/data/repositories/template_repository_impl.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class TemplateProvider extends ChangeNotifier {

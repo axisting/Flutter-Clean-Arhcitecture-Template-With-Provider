@@ -1,13 +1,13 @@
 import 'package:dartz/dartz.dart';
-import 'package:provider_template/core/connection/network_info.dart';
-import 'package:provider_template/core/errors/exception.dart';
-import 'package:provider_template/core/errors/failure.dart';
-import 'package:provider_template/core/params/params.dart';
-import 'package:provider_template/features/template/business/entities/template_entity.dart';
-import 'package:provider_template/features/template/business/repositories/template_repository.dart';
-import 'package:provider_template/features/template/data/datasources/template_local_data_source.dart';
-import 'package:provider_template/features/template/data/datasources/template_remote_data_source.dart';
-import 'package:provider_template/features/template/data/models/template_model.dart';
+import '/core/connection/network_info.dart';
+import '/core/errors/exception.dart';
+import '/core/errors/failure.dart';
+import '/core/params/params.dart';
+import '/features/template/business/entities/template_entity.dart';
+import '/features/template/business/repositories/template_repository.dart';
+import '/features/template/data/datasources/template_local_data_source.dart';
+import '/features/template/data/datasources/template_remote_data_source.dart';
+import '/features/template/data/models/template_model.dart';
 
 class TemplateRepositoryImpl implements TemplateRepository {
   final TemplateRemoteDataSource remoteDataSource;

@@ -1,7 +1,7 @@
-import 'package:provider_template/core/constants/constants.dart';
-import 'package:provider_template/core/errors/exception.dart';
-import 'package:provider_template/core/params/params.dart';
-import 'package:provider_template/features/template/data/models/template_model.dart';
+import '/core/constants/constants.dart';
+import '/core/errors/exception.dart';
+import '/core/params/params.dart';
+import '/features/template/data/models/template_model.dart';
 import 'package:dio/dio.dart';
 
 abstract class TemplateRemoteDataSource {

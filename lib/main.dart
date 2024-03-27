@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
-import 'package:provider_template/features/skeleton/provider/selected_page_provider.dart';
-import 'package:provider_template/features/skeleton/skeleton.dart';
-import 'package:provider_template/theme.dart';
+import '/features/skeleton/provider/selected_page_provider.dart';
+import '/features/skeleton/skeleton.dart';
+
+part 'theme.dart';
 
 void main() {
   runApp(MultiProvider(providers: [
@@ -23,9 +23,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      locale: Locale('tr'),
+      locale: const Locale('en'),
       theme: AppTheme.lightTheme,
-      home: Skeleton(),
+      home: const Skeleton(),
     );
   }
 }

@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:provider_template/core/errors/failure.dart';
-import 'package:provider_template/core/params/params.dart';
-import 'package:provider_template/features/template/business/entities/template_entity.dart';
-import 'package:provider_template/features/template/business/repositories/template_repository.dart';
+import '/core/errors/failure.dart';
+import '/core/params/params.dart';
+import '/features/template/business/entities/template_entity.dart';
+import '/features/template/business/repositories/template_repository.dart';
 
 class GetTemplate {
   final TemplateRepository templateRepository;
